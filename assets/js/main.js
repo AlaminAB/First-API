@@ -11,14 +11,6 @@ let url='https://randomuser.me/api/';
   xhttp.open("GET", url, true);
   xhttp.send();
 function genarate(){
-	let url='https://randomuser.me/api/';
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-
-      check(this.responseText)
-  }
-  };
   xhttp.open("GET", url, true);
   xhttp.send();
 }
